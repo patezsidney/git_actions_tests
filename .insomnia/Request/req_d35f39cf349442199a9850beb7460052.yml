@@ -1,0 +1,57 @@
+_id: req_d35f39cf349442199a9850beb7460052
+type: Request
+parentId: fld_9c428a393b7646cba6d86acc7e33d754
+modified: 1657547514405
+created: 1656428003558
+url: "{{ _.baseURL }}/report/157762/run/"
+name: Republica consulta na lista
+description: |
+  Endpoint só pode ser executado em Homologação
+  `./set_context.sh homologacao`
+
+  ## Body:
+  ```JSON
+  {
+  	"report_item_id": [
+  		cardapio_id: int,
+  	],
+  	"overwrite": boolean,
+  }
+  ```
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"report_item_id": [],
+    	"overwrite": false
+    }
+parameters:
+  - id: pair_6fb2784e885c4049bd4d466b795d9bc0
+    name: gcv1
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImlzcyI6IkxvWkFsT1VjSkhlV2owT3lnU1VISm9UNjFZeno3ZjdKIn0.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.GM3XlEBXVrKiDjpUUqm8yqu1IWxZaGlQO4UZu_NFUQE'
+    description: ""
+    disabled: false
+  - id: pair_c88ca4943f6e443490b85b333e8e8f63
+    name: token
+    value: dddd9a19a6d24d80622fe6de98fd7b37
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_773d48ade4824b85bfc466b0fa5f52ba
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "39162587889"
+  password: rafael358
+metaSortKey: -1656428003558
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,14 @@
+_id: env_a85f437bd1534b1fb05a783b3a083ec0
+type: Environment
+parentId: env_ee66356f653cee78ef6a4b5b7b92dce9723c1ff3
+modified: 1657028557468
+created: 1656428616594
+name: Development
+data:
+  baseURL: https://api-interno.gedanken.com.br
+dataPropertyOrder:
+  "&":
+    - baseURL
+color: null
+isPrivate: false
+metaSortKey: 1656428616594
